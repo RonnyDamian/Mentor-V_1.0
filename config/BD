@@ -1,0 +1,264 @@
+DROP DATABASE IF EXISTS pryEncuesta;
+CREATE DATABASE IF NOT EXISTS pryEncuesta;
+use pryEncuesta;
+/*Creación tabla usuarios*/
+DROP TABLE IF EXISTS t_usuarios;
+CREATE TABLE IF NOT EXISTS t_usuarios
+(
+
+id_Usuario INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(70) NOT NULL,
+apellido VARCHAR(70) NOT NULL,
+sexo VARCHAR(15) NOT NULL,
+edad VARCHAR(3) NOT NULL,
+celular VARCHAR(10) NOT NULL,
+email VARCHAR(100) NOT NULL,
+empresa VARCHAR(100) NOT NULL,
+cargo VARCHAR(50) NOT NULL
+)ENGINE=INNODB DEFAULT CHARSET="utf8";
+/*Creación tabla animoso*/
+DROP TABLE IF EXISTS t_animodo;
+CREATE TABLE IF NOT EXISTS t_animodo
+(
+
+idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+preg1 INT(11)NOT NULL,
+preg2 INT(11)NOT NULL,
+preg3 INT(11)NOT NULL,
+preg4 INT(11)NOT NULL,
+preg5 INT(11)NOT NULL,
+preg6 INT(11)NOT NULL,
+preg7 INT(11)NOT NULL,
+preg8 INT(11)NOT NULL,
+preg9 INT(11)NOT NULL,
+preg10 INT(11)NOT NULL,
+preg11 INT(11)NOT NULL,
+preg12 INT(11)NOT NULL,
+preg13 INT(11)NOT NULL,
+preg14 INT(11)NOT NULL,
+id_Usuario INT(11) NOT NULL,
+animodo VARCHAR (70) NOT NULL
+)ENGINE=INNODB DEFAULT CHARSET="utf8";
+
+
+
+ALTER TABLE t_encuesta ADD CONSTRAINT FOREIGN KEY(id_Usuario) REFERENCES t_usuarios(id_Usuario) ON DELETE CASCADE ON UPDATE CASCADE;
+
+/*Creación tabla color de la comunicacion*/
+
+DROP TABLE IF EXISTS t_colorComunicacion;
+CREATE TABLE IF NOT EXISTS t_colorComunicacion
+(
+
+idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+preg1op1 INT(3)NOT NULL,
+preg1op2 INT(3)NOT NULL,
+preg1op3 INT(3)NOT NULL,
+preg1op4 INT(3)NOT NULL,
+preg2op1 INT(3)NOT NULL,
+preg2op2 INT(3)NOT NULL,
+preg2op3 INT(3)NOT NULL,
+preg2op4 INT(3)NOT NULL,
+preg3op1 INT(3)NOT NULL,
+preg3op2 INT(3)NOT NULL,
+preg3op3 INT(3)NOT NULL,
+preg3op4 INT(3)NOT NULL,
+preg4op1 INT(3)NOT NULL,
+preg4op2 INT(3)NOT NULL,
+preg4op3 INT(3)NOT NULL,
+preg4op4 INT(3)NOT NULL,
+preg5op1 INT(3)NOT NULL,
+preg5op2 INT(3)NOT NULL,
+preg5op3 INT(3)NOT NULL,
+preg5op4 INT(3)NOT NULL,
+preg6op1 INT(3)NOT NULL,
+preg6op2 INT(3)NOT NULL,
+preg6op3 INT(3)NOT NULL,
+preg6op4 INT(3)NOT NULL,
+preg7op1 INT(3)NOT NULL,
+preg7op2 INT(3)NOT NULL,
+preg7op3 INT(3)NOT NULL,
+preg7op4 INT(3)NOT NULL,
+preg8op1 INT(3)NOT NULL,
+preg8op2 INT(3)NOT NULL,
+preg8op3 INT(3)NOT NULL,
+preg8op4 INT(3)NOT NULL,
+preg9op1 INT(3)NOT NULL,
+preg9op2 INT(3)NOT NULL,
+preg9op3 INT(3)NOT NULL,
+preg9op4 INT(3)NOT NULL,
+preg10op1 INT(3)NOT NULL,
+preg10op2 INT(3)NOT NULL,
+preg10op3 INT(3)NOT NULL,
+preg10op4 INT(3)NOT NULL,
+preg11op1 INT(3)NOT NULL,
+preg11op2 INT(3)NOT NULL,
+preg11op3 INT(3)NOT NULL,
+preg11op4 INT(3)NOT NULL,
+preg12op1 INT(3)NOT NULL,
+preg12op2 INT(3)NOT NULL,
+preg12op3 INT(3)NOT NULL,
+preg12op4 INT(3)NOT NULL,
+preg13op1 INT(3)NOT NULL,
+preg13op2 INT(3)NOT NULL,
+preg13op3 INT(3)NOT NULL,
+preg13op4 INT(3)NOT NULL,
+preg14op1 INT(3)NOT NULL,
+preg14op2 INT(3)NOT NULL,
+preg14op3 INT(3)NOT NULL,
+preg14op4 INT(3)NOT NULL,
+preg15op1 INT(3)NOT NULL,
+preg15op2 INT(3)NOT NULL,
+preg15op3 INT(3)NOT NULL,
+preg15op4 INT(3)NOT NULL,
+preg16op1 INT(3)NOT NULL,
+preg16op2 INT(3)NOT NULL,
+preg16op3 INT(3)NOT NULL,
+preg16op4 INT(3)NOT NULL,
+preg17op1 INT(3)NOT NULL,
+preg17op2 INT(3)NOT NULL,
+preg17op3 INT(3)NOT NULL,
+preg17op4 INT(3)NOT NULL,
+preg18op1 INT(3)NOT NULL,
+preg18op2 INT(3)NOT NULL,
+preg18op3 INT(3)NOT NULL,
+preg18op4 INT(3)NOT NULL,
+preg19op1 INT(3)NOT NULL,
+preg19op2 INT(3)NOT NULL,
+preg19op3 INT(3)NOT NULL,
+preg19op4 INT(3)NOT NULL,
+preg20op1 INT(3)NOT NULL,
+preg20op2 INT(3)NOT NULL,
+preg20op3 INT(3)NOT NULL,
+preg20op4 INT(3)NOT NULL,
+preg21op1 INT(3)NOT NULL,
+preg21op2 INT(3)NOT NULL,
+preg21op3 INT(3)NOT NULL,
+preg21op4 INT(3)NOT NULL,
+preg22op1 INT(3)NOT NULL,
+preg22op2 INT(3)NOT NULL,
+preg22op3 INT(3)NOT NULL,
+preg22op4 INT(3)NOT NULL,
+colorAmarillo VARCHAR(3) NOT NULL,
+colorRojo VARCHAR(3) NOT NULL,
+colorAzul VARCHAR(3) NOT NULL,
+colorVerde VARCHAR(3) NOT NULL,
+id_Usuario INT(11) NOT NULL
+)ENGINE=INNODB DEFAULT CHARSET="utf8";
+
+/*Creación de la tabla tipos de cerebro*/
+DROP TABLE IF EXISTS t_tiposCerebro;
+CREATE TABLE IF NOT EXISTS t_tiposCerebro
+(
+
+idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+preg1 INT(3)NOT NULL,
+preg2 INT(3)NOT NULL,
+preg3 INT(3)NOT NULL,
+preg4 INT(3)NOT NULL,
+preg5 INT(3)NOT NULL,
+preg6 INT(3)NOT NULL,
+preg7 INT(3)NOT NULL,
+preg8 INT(3)NOT NULL,
+preg9 INT(3)NOT NULL,
+preg10 INT(3)NOT NULL,
+preg11 INT(3)NOT NULL,
+preg12 INT(3)NOT NULL,
+preg13 INT(3)NOT NULL,
+preg14 INT(3)NOT NULL,
+preg15 INT(3)NOT NULL,
+preg16 INT(3)NOT NULL,
+preg17 INT(3)NOT NULL,
+preg18 INT(3)NOT NULL,
+preg19 INT(3)NOT NULL,
+preg20 INT(3)NOT NULL,
+preg21 INT(3)NOT NULL,
+preg22 INT(3)NOT NULL,
+preg23 INT(3)NOT NULL,
+cerebroIzq VARCHAR (8) NOT NULL,
+cerebroCen VARCHAR (8) NOT NULL,
+cerebroDer VARCHAR (8) NOT NULL,
+valoracion INT(3) NOT NULL,
+id_Usuario INT(11) NOT NULL
+
+)ENGINE=INNODB DEFAULT CHARSET="utf8";
+
+/*Crecion tabla evaluación negociadora*/
+DROP TABLE IF EXISTS t_evalNegociadora;
+CREATE TABLE IF NOT EXISTS t_evalNegociadora
+(
+
+idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+preg1 INT(3)NOT NULL,
+preg2 INT(3)NOT NULL,
+preg3 INT(3)NOT NULL,
+preg4 INT(3)NOT NULL,
+preg5 INT(3)NOT NULL,
+preg6 INT(3)NOT NULL,
+preg7 INT(3)NOT NULL,
+preg8 INT(3)NOT NULL,
+preg9 INT(3)NOT NULL,
+preg10 INT(3)NOT NULL,
+preg11 INT(3)NOT NULL,
+preg12 INT(3)NOT NULL,
+preg13 INT(3)NOT NULL,
+preg14 INT(3)NOT NULL,
+preg15 INT(3)NOT NULL,
+preg16 INT(3)NOT NULL,
+preg17 INT(3)NOT NULL,
+preg18 INT(3)NOT NULL,
+preg19 INT(3)NOT NULL,
+preg20 INT(3)NOT NULL,
+preg21 INT(3)NOT NULL,
+preg22 INT(3)NOT NULL,
+preg23 INT(3)NOT NULL,
+preg24 INT(3)NOT NULL,
+preg25 INT(3)NOT NULL,
+preg26 INT(3)NOT NULL,
+preg27 INT(3)NOT NULL,
+preg28 INT(3)NOT NULL,
+preg29 INT(3)NOT NULL,
+preg30 INT(3)NOT NULL,
+cantidad INT(3)NOT NULL,
+valoracion VARCHAR (10) NOT NULL,
+cualidad VARCHAR (20) NOT NULL,
+id_Usuario INT(11) NOT NULL
+)ENGINE=INNODB DEFAULT CHARSET="utf8";
+/*Creación de la  tabla TEST DE VAK*/
+DROP TABLE IF EXISTS t_testVak;
+CREATE TABLE IF NOT EXISTS t_testVak
+        (
+
+        idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        preg1 INT(11)NOT NULL,
+        preg2 INT(11)NOT NULL,
+        preg3 INT(11)NOT NULL,
+        preg4 INT(11)NOT NULL,
+        preg5 INT(11)NOT NULL,
+        preg6 INT(11)NOT NULL,
+        preg7 INT(11)NOT NULL,
+        preg8 INT(11)NOT NULL,
+        preg9 INT(11)NOT NULL,
+        preg10 INT(11)NOT NULL,
+        preg11 INT(11)NOT NULL,
+        preg12 INT(11)NOT NULL,
+        preg13 INT(11)NOT NULL,
+        preg14 INT(11)NOT NULL,
+        id_Usuario INT(11) NOT NULL,
+        animodo VARCHAR (70) NOT NULL
+        )ENGINE=INNODB DEFAULT CHARSET="utf8";
+
+
+/*Creación de la tabla Nivel de Persistencia*/
+
+DROP TABLE IF EXISTS t_nivelPersistencia;
+CREATE TABLE IF NOT EXISTS t_nivelPersistencia
+        (
+        idEncuesta INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        colorComunicacion INT(3)NOT NULL,
+        tiposCerebro INT(3)NOT NULL,
+        formaNegociadora INT(3)NOT NULL,
+        valoracion INT(3) NOT NULL,
+        persistente VARCHAR(5) NOT NULL,
+        id_Usuario INT(11) NOT NULL
+        )ENGINE=INNODB DEFAULT CHARSET="utf8";

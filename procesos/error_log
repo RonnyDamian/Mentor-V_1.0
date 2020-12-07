@@ -1,0 +1,177 @@
+[04-Nov-2020 22:49:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 22:49:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 22:49:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 22:49:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 22:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 22:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:49
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/contacto.php(67): Usuario->mostrarEdad()
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 49
+[04-Nov-2020 23:14:33 UTC] PHP Warning:  A non-numeric value encountered in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/capturaPreguntas2.php on line 105
+[04-Nov-2020 23:14:33 UTC] PHP Warning:  A non-numeric value encountered in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/capturaPreguntas2.php on line 110
+[04-Nov-2020 23:14:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 73 passed to Encuesta2::registrarEncuesta() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/capturaPreguntas2.php on line 186 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta2.php:108
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/capturaPreguntas2.php(186): Encuesta2->registrarEncuesta(0, 1, 0, 3, 0, 3, 0, 1, 0, 3, 0, 1, 3, 0, 0, 1, 0, 0, 3, 1, 3, 1, 0, 0, 1, 3, 0, 0, 0, 0, 3, 1, 1, 0, 0, 3, 0, 0, 3, 1, 0, 1, 3, 0, 0, 0, 3, 1, 1, 3, 0, 0, 1, 0, 3, 0, 3, 0, 1, 0, 3, 0, 1, 0, 3, 1, 0, 0, 3, 1, 0, 0, '', '3', '1', '0', '3', '1', '0', '0', '3', '1', '0', '0', '3', '1', '0', '0', '35.23', '26.14', '23.86', '14.77', 1, '45')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta2.php on line 108
+[04-Nov-2020 23:24:17 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:17 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:29 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:29 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:31 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:31 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:32 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:32 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:33 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:34 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:34 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:35 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:36 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:36 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:37 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php on line 4
+[04-Nov-2020 23:24:37 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Encuesta::buscAnimodo() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php on line 8 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta.php:114
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php(8): Encuesta->buscAnimodo(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta.php on line 114
+[04-Nov-2020 23:24:39 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:24:57 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:24:57 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:25:01 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:25:01 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[04-Nov-2020 23:25:02 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[04-Nov-2020 23:25:02 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 119 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(119): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65
+[08-Nov-2020 01:49:30 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('niuniu', 'niuniu', 'hombre', '43', '0987654321', 'coronavirus2020...', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 01:49:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('niuniu', 'niuniu', 'hombre', '43', '0987654321', 'coronavirus2020...', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 01:49:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('niuniu', 'niuniu', 'hombre', '43', '0987654321', 'coronavirus2020...', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 01:50:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Brenda Maricel', 'Rodriguez Nole', 'mujer', '20', '0987654321', 'dianaonline0720...', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:51:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Gustavo Ramiro', 'Montenegro Dobr...', 'hombre', '43', '984641425', 'nvvdknlv@gmail....', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:51:54 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Gustavo Ramiro', 'Montenegro Dobr...', 'hombre', '43', '984641425', 'nvvdknlv@gmail....', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:51:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Gustavo Ramiro', 'Montenegro Dobr...', 'hombre', '43', '984641425', 'nvvdknlv@gmail....', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:52:30 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('', '', '', '', '', '', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:52:50 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Gustavo Ramiro', 'Montenegro Dobr...', 'hombre', '43', '984641425', 'nvvdknlv@gmail....', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 03:52:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 7 passed to Usuario::registrarUsuario() must be of the type integer, string given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php on line 24 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php:29
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/fb-callback.php(24): Usuario->registrarUsuario('Gustavo Ramiro', 'Montenegro Dobr...', 'hombre', '43', '984641425', 'nvvdknlv@gmail....', '', '')
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Usuario.php on line 29
+[08-Nov-2020 04:09:49 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php on line 4
+[08-Nov-2020 04:09:49 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Encuesta::buscAnimodo() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php on line 8 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta.php:114
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/result.php(8): Encuesta->buscAnimodo(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Encuesta.php on line 114
+[08-Nov-2020 06:12:34 UTC] PHP Notice:  Undefined index: id_Usuario in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 5
+[08-Nov-2020 06:12:34 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Persistencia::validaEncuesta() must be of the type integer, null given, called in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php on line 105 and defined in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php:65
+Stack trace:
+#0 /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/nivelPersistencia.php(105): Persistencia->validaEncuesta(NULL)
+#1 {main}
+  thrown in /home/u206809020/domains/juntadeaguapilalo.com/public_html/mentoria/procesos/Persistencia.php on line 65

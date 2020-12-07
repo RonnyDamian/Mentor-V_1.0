@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-color:     #E1E2E1;  
+}
+header{
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(340, 95%, 50%, 0.459),#4D0686 ), url(../img/bg.jpg);
+  color:#4D0686;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(340, 95%, 50%, 0.46), #4D0686), url(../img/bg.jpg);
+}
+.card-header, .btnSubmit{
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsla(340, 95%, 50%, 0.459),#4D0686 ), url(../img/bg.jpg);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsla(340, 95%, 50%, 0.459), #4D0686), url(../img/bg.jpg);
+  color:white;
+}
+
